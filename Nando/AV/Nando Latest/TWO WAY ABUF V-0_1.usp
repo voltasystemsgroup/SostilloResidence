@@ -1,0 +1,51 @@
+#DEFAULT_VOLATILE
+
+DIGITAL_INPUT ENABLE;
+
+
+ANALOG_INPUT TX_IN, RX_IN, RE_PROPOGATE;
+ANALOG_OUTPUT TX_OUT, RX_OUT;
+
+
+PUSH ENABLE
+{
+	Switch( RE_PROPOGATE )
+	{
+		Case( 1 ):
+		{
+			If( TX_IN != RX_IN && ENABLE)
+			{
+				TX_OUT = TX_IN;
+			}			
+		}
+		Case( 2 ):
+		{
+			If( RX_IN != TX_IN && ENABLE)
+			{
+				RX_OUT = RX_IN;
+			}
+		}
+		Default:
+		{
+		
+		}
+	}
+}
+
+CHANGE TX_IN
+{
+	If( TX_IN != RX_IN && ENABLE)
+	{
+		TX_OUT = TX_IN;
+	}
+}
+
+CHANGE RX_IN
+{
+	If( RX_IN != TX_IN && ENABLE)
+	{
+		RX_OUT = RX_IN;
+	}	
+}
+
+

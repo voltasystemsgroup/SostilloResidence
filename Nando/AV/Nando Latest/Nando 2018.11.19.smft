@@ -1,0 +1,22 @@
+<Device Model="CP3">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="ST-IO" DeviceId="14"/>
+      <Device Model="C2N-SSC-2" DeviceId="71" Name="C2N-SSC-2 [MASTER]"/>
+      <Device Model="C2N-SSC-2" DeviceId="72" Name="C2N-SSC-2 [KITCHEN]"/>
+      <Device Model="C2N-SSC-2" DeviceId="73" Name="C2N-SSC-2 [PATIO]"/>
+      <Device Model="C2N-SSC-2" DeviceId="74" Name="C2N-SSC-2 [LIVING ROOM]"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CEN-RFGW-EX" DeviceId="0F" Name="CEN-RFGW-EX (Shared Ethernet)">
+         <Network Type="RF">
+            <Device Model="CLW-DIMEX-P" DeviceId="03" Name="CLW-DIMEX-P Mirror"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="04" Name="CLW-DIMEX-P Above Couch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="05" Name="CLW-DIMEX-P Above TV "/>
+            <Device Model="CLW-DIMEX-P" DeviceId="06" Name="CLW-DIMEX-P Shelves"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="07" Name="CLW-DIMEX-P Wall Remote"/>
+            <Device Model="TSR-302" DeviceId="2A" Name="TSR-302 (EX)"/>
+            <Device Model="TSR-302" DeviceId="3A" Name="TSR-302 (EX)"/>
+         </Network>
+      </Device>
+   </Network>
+</Device>

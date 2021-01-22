@@ -1,0 +1,604 @@
+<?xml xml version="1.0" encoding="utf-8"?>
+<!--Product Configuration File-->
+<ConfigurationObj xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CallHomeUrl>http://93429.tbnet1.com</CallHomeUrl>
+	<PrivacyMode>0</PrivacyMode>
+	<FileSizeThresholdKB>1024</FileSizeThresholdKB>
+	<LogFull>0</LogFull>
+	<SystemInfoCheckTimeThreshold>24</SystemInfoCheckTimeThreshold>
+	<LastSystemInfoCheck/>
+	<ProductInfoSectionChange>0</ProductInfoSectionChange>
+	<LicenseInfoSectionChange>0</LicenseInfoSectionChange>
+	<FTFlag>1</FTFlag>
+	<ETFlag>8184</ETFlag>
+	<SEQ>2</SEQ>
+	<LastVerCheck/>
+	<VerCheckTimeThreshold>30</VerCheckTimeThreshold>
+	<LastKeyCheck/>
+	<KeyCheckTimeThreshold>5</KeyCheckTimeThreshold>
+	<CustomTextThreshold>4096</CustomTextThreshold>
+	<LastMessageCheck/>
+	<MessageCheckTimeThreshold>1</MessageCheckTimeThreshold>
+	<LastSync>2017-6-7 18:51:47.480</LastSync>
+	<LastSyncSuccess>2017-6-7 18:51:47.896</LastSyncSuccess>
+	<SyncTimeThreshold>30</SyncTimeThreshold>
+	<ProdEdition/>
+	<TypeOfKey>3</TypeOfKey>
+	<KeyExpired>0</KeyExpired>
+	<KeyActivated>0</KeyActivated>
+	<KeyBlacklisted>0</KeyBlacklisted>
+	<KeyWhitelisted>0</KeyWhitelisted>
+	<ServerPublicKey>slB704rvVRYv1a8Ws5mXschXaAQ9P+sEoF9/pjZzGGpSr6hhbiNgPHfiHUI207mYNlPhlH/RYD6LDgkuUQu1eKHDTkzVHkS4Dd4B0sZU0bUAUG3RfFm9QsEU/TDmgPQWdPyx1QgRqmHTDOZcRcN8JvGdL22XbN2jOM1+mwepL9c=</ServerPublicKey>
+	<ClientPublicKey>x6QxNk6R4YBQgAAp0jQOSZY7A2GoQtAdV3VZLdUEKGQSaGq7fsrudDoDgrT5CW15lxBmM6SPV33bDIfF2x1oO74zIWHBt/NhY6Faw5JFfLor2VIWPm2Q8drQjWJqYtz8VrUzXykta2mFEsLjPYgGXX1/z91NKCEGD9LxZ11aZJM=</ClientPublicKey>
+	<ClientPrivateKey>MIICXgIBAAKBgQDHpDE2TpHhgFCAACnSNA5JljsDYahC0B1XdVkt1QQoZBJoart+
+yu50OgOCtPkJbXmXEGYzpI9XfdsMh8XbHWg7vjMhYcG382FjoVrDkkV8uivZUhY+
+bZDx2tCNYmpi3PxWtTNfKS1raYUSwuM9iAZdfX/P3U0oIQYP0vFnXVpkkwIDAQAB
+AoGBAKOuNrrzyB8+eMG5YJB7JYunpFKtaqr8vlHKYId3MqV7BqyddYQLFV4tgltT
+zSqxmxMD2wdUUEHHaiTn3Iw9nAqMkDo6cc/eIKeyzQ7+y3LUzdSWXuGOYV1eXu43
+VucV/Si2BZz5E6uHNY2m2WI0+sGcX8PfkH6Q83jZYRTESofBAkEA6TaZaYCuzUTJ
+bKRwug9cunSAJcMjIiQlfqDbtcIsc/8/tv/NIB6I9utJZBzvdpA3fBAS95JqjYnG
+rF+XwLWAWQJBANsl2oiJ3NcigGKxx4P8B6RjqPdUAK8tZSBroJGqkGomZMourW1k
+nx9ozfrvzqhCYDYkoYPPXqTCzyPkbyyWzssCQCZ3pRJr8WlWYUsUTKvEAO2YbdLM
+vyzQfYbHjbYLUz3G6oGK7BDSOJFR+gcTZsRNwXkrRZWkhwLVqPmhwuw8g/ECQQDC
+hSshHx4DaACFmj/6i29NH5kPUGT7GVQ2HtJ7+eYOEt5MCHqwKyyC+Mg9ATdyathz
+trgXA66CmNi8hzuXXJVZAkEA1DyMZ+RZG7z1eGBNMoD06Qbu62EgqcKd4ak/Hbgd
+RIStLtknkSOO75Mh/+z5wc6xJvj/Tc5MfftHLEImzGPw1g==
+</ClientPrivateKey>
+	<FingerPrint>YENQMkNBMYNZYBZVNYNNOYNENEMNZYNQZENNNEZYZQNQ</FingerPrint>
+	<LegacyFingerPrint>MDMxNmNjYWRlZjA3Y2MwN2MzYzg5MjhhNzE5OTRkMjg=</LegacyFingerPrint>
+	<ProdBuildNum>1.61.011.00</ProdBuildNum>
+	<ProdVer>1.61.011.00</ProdVer>
+	<DebugEnabled>0</DebugEnabled>
+	<ProductLanguage/>
+	<ClientID>572560318502DD5C</ClientID>
+	<FeatureListLimit>1000</FeatureListLimit>
+	<CustomFiltersLimit>20</CustomFiltersLimit>
+	<CustomFilterList>
+		<CustomFilter>
+			<Name>C01</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C02</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C03</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C04</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C05</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C06</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C07</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C08</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C09</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C10</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C11</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C12</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C13</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C14</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C15</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C16</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C17</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C18</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C19</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+		<CustomFilter>
+			<Name>C20</Name>
+			<Value/>
+			<Sent>true</Sent>
+		</CustomFilter>
+	</CustomFilterList>
+	<FeatureList>
+		<Feature>
+			<Category>App</Category>
+			<Name>Started</Name>
+			<Sent>true</Sent>
+		</Feature>
+		<Feature>
+			<Category>System</Category>
+			<Name>Open with Page Generation</Name>
+			<Sent>true</Sent>
+		</Feature>
+		<Feature>
+			<Category>System</Category>
+			<Name>Open with target Home</Name>
+			<Sent>true</Sent>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Open Project: System</Name>
+			<Sent>true</Sent>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>Started</Name>
+			<Sent>true</Sent>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>&lt;30 seconds</Name>
+			<Sent>true</Sent>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>Time</Name>
+			<Sent>true</Sent>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Running Time</Name>
+			<Sent>true</Sent>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Running Time (non-idle)</Name>
+			<Sent>true</Sent>
+		</Feature>
+	</FeatureList>
+	<FeatureWhitelist>
+		<Feature>
+			<Category>Page Generation</Category>
+			<Name>Error</Name>
+		</Feature>
+		<Feature>
+			<Category>Uploads</Category>
+			<Name>System Uploaded</Name>
+		</Feature>
+		<Feature>
+			<Category>Page Generation</Category>
+			<Name>Warning</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>Warning</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Device Usage</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Started</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Running Time</Name>
+		</Feature>
+		<Feature>
+			<Category>System</Category>
+			<Name>New with Page Generation</Name>
+		</Feature>
+		<Feature>
+			<Category>System</Category>
+			<Name>New with Macro Programming</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>New Project: System</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>New Project: SIMPL Module</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Opened SIMPL Module Designer</Name>
+		</Feature>
+		<Feature>
+			<Category>SIMPL Module Designer</Category>
+			<Name>Activated Logic</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>New Project: Device</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Opened SIMPL+ Module Designer</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>New Project: SIMPL+ Module</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>New Project: Smart Graphics Theme</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Opened Smart Graphics Theme Editor</Name>
+		</Feature>
+		<Feature>
+			<Category>Smart Graphics Theme Editor</Category>
+			<Name>Activated Design Explorer</Name>
+		</Feature>
+		<Feature>
+			<Category>Smart Graphics Theme Editor</Category>
+			<Name>Activated Resource Librar</Name>
+		</Feature>
+		<Feature>
+			<Category>System</Category>
+			<Name>New without Page Generation</Name>
+		</Feature>
+		<Feature>
+			<Category>System</Category>
+			<Name>New with SIMPL Only</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Open Project: System</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Opened Touch Screen Designer</Name>
+		</Feature>
+		<Feature>
+			<Category>Touch Screen Designer</Category>
+			<Name>Activated Control Gallery</Name>
+		</Feature>
+		<Feature>
+			<Category>Touch Screen Designer</Category>
+			<Name>Activated Resource Library</Name>
+		</Feature>
+		<Feature>
+			<Category>Touch Screen Designer</Category>
+			<Name>Activated Design Explorer</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>Started</Name>
+		</Feature>
+		<Feature>
+			<Category>SIMPL Module Designer</Category>
+			<Name>Activated Signals</Name>
+		</Feature>
+		<Feature>
+			<Category>SIMPL+ Module Designer</Category>
+			<Name>Activated Find and Replace</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>&lt;2 minutes</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>&lt;1 minute</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Compilation</Category>
+			<Name>Started</Name>
+		</Feature>
+		<Feature>
+			<Category>Touch Screen Designer</Category>
+			<Name>Activated Macro Programming</Name>
+		</Feature>
+		<Feature>
+			<Category>Touch Screen Designer</Category>
+			<Name>Activated Properties</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Opened Faceplate Designer</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>&lt;30 seconds</Name>
+		</Feature>
+		<Feature>
+			<Category>Faceplate Designer</Category>
+			<Name>Activated Parts Gallery</Name>
+		</Feature>
+		<Feature>
+			<Category>Faceplate Designer</Category>
+			<Name>Activated Configuration Gallery</Name>
+		</Feature>
+		<Feature>
+			<Category>Touch Screen Designer</Category>
+			<Name>Activated Issues</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Opened Program Designer</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Designer</Category>
+			<Name>Activated Logic</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Designer</Category>
+			<Name>Activated Signals</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Open Project: Smart Graphics Theme</Name>
+		</Feature>
+		<Feature>
+			<Category>Smart Graphics Theme Editor</Category>
+			<Name>Activated Properties</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Designer</Category>
+			<Name>Activated Diagrams</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Designer</Category>
+			<Name>Activated Devices</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Designer</Category>
+			<Name>Activated Symbol Library</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Opened Device Updates Designer</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Open Project: SIMPL Module</Name>
+		</Feature>
+		<Feature>
+			<Category>Smart Graphics Theme Editor</Category>
+			<Name>Activated Output</Name>
+		</Feature>
+		<Feature>
+			<Category>SIMPL Module Designer</Category>
+			<Name>Activated Diagrams</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Open Project: SIMPL+ Module</Name>
+		</Feature>
+		<Feature>
+			<Category>SIMPL+ Module Designer</Category>
+			<Name>Activated Output</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Opened Basic Screen Designer</Name>
+		</Feature>
+		<Feature>
+			<Category>Basic Screen Designer</Category>
+			<Name>Activated Design Explorer</Name>
+		</Feature>
+		<Feature>
+			<Category>Basic Screen Designer</Category>
+			<Name>Activated Issues</Name>
+		</Feature>
+		<Feature>
+			<Category>Basic Screen Designer</Category>
+			<Name>Activated Macro Programming</Name>
+		</Feature>
+		<Feature>
+			<Category>Basic Screen Designer</Category>
+			<Name>Activated Properties</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Designer</Category>
+			<Name>Activated Issues</Name>
+		</Feature>
+		<Feature>
+			<Category>Basic Screen Designer</Category>
+			<Name>Activated Page Explorer</Name>
+		</Feature>
+		<Feature>
+			<Category>Basic Screen Designer</Category>
+			<Name>Activated Page Gallery</Name>
+		</Feature>
+		<Feature>
+			<Category>Basic Screen Designer</Category>
+			<Name>Activated Resource Library</Name>
+		</Feature>
+		<Feature>
+			<Category>Faceplate Designer</Category>
+			<Name>Activated Properties</Name>
+		</Feature>
+		<Feature>
+			<Category>Touch Screen Designer</Category>
+			<Name>Activated Output</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>&lt;5 minutes</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Open Project: Device</Name>
+		</Feature>
+		<Feature>
+			<Category>SIMPL Module Designer</Category>
+			<Name>Activated Symbol Library</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>&lt;10 minutes</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Running Time (non-idle)</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>Time</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Generation</Category>
+			<Name>Error</Name>
+		</Feature>
+		<Feature>
+			<Category>System</Category>
+			<Name>New with target Residential</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Compilation</Category>
+			<Name>&lt;2 minutes</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Compilation</Category>
+			<Name>Time</Name>
+		</Feature>
+		<Feature>
+			<Category>System</Category>
+			<Name>New with target Commercial</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Compilation</Category>
+			<Name>&lt;30 seconds</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Compilation</Category>
+			<Name>&lt;1 minute</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Compilation</Category>
+			<Name>&lt;5 minutes</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Compilation</Category>
+			<Name>&lt;10 minutes</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .ir</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .umc</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .ct_simplmodule_x</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Compilation</Category>
+			<Name>&lt;20 minutes</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .cds_core3_theme_x</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .ct_system_x</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Open Project: Smart Graphics Template</Name>
+		</Feature>
+		<Feature>
+			<Category>Touch Screen Template Designer</Category>
+			<Name>Activated Control Gall</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .smw</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .zip</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .ct_screen_theme_rp</Name>
+		</Feature>
+		<Feature>
+			<Category>Program Compilation</Category>
+			<Name>&gt;=20 minutes</Name>
+		</Feature>
+		<Feature>
+			<Category>Touch Screen Template Designer</Category>
+			<Name>Activated Page Explore</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .ct_simplplusmodule_x</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .usp</Name>
+		</Feature>
+		<Feature>
+			<Category>Touch Screen Designer</Category>
+			<Name>Activated Design Explorer 2</Name>
+		</Feature>
+		<Feature>
+			<Category>App</Category>
+			<Name>Imported .ct_system_rp</Name>
+		</Feature>
+		<Feature>
+			<Category>System Designer</Category>
+			<Name>Device Replaced</Name>
+		</Feature>
+		<Feature>
+			<Category>System Designer</Category>
+			<Name>Device Replace</Name>
+		</Feature>
+	</FeatureWhitelist>
+</ConfigurationObj>
+

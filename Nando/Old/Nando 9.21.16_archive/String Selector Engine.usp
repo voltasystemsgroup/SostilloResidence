@@ -1,0 +1,44 @@
+
+
+#DEFINE_CONSTANT MAX_OUTPUT_STRINGS 33
+#DEFINE_CONSTANT MAX_SOURCE_STRINGS 33
+#DEFINE_CONSTANT MAX_STRING_SIZE 50
+
+STRING_INPUT STRING_VAL[ MAX_SOURCE_STRINGS ][ MAX_STRING_SIZE ];
+ANALOG_INPUT STRING_INDEX_FOR_OUTPUT_STRING[ MAX_OUTPUT_STRINGS ];
+STRING_OUTPUT OUTPUT_STRING[ MAX_OUTPUT_STRINGS ];
+
+Function UpdateOutputString( integer nOutputStringIndex, integer nStringIndex )
+{	
+	OUTPUT_STRING[ nOutputStringIndex ] = STRING_VAL[ nStringIndex ];
+}
+
+Change STRING_INDEX_FOR_OUTPUT_STRING
+{
+	integer nOutputStringIndex;
+	
+	nOutputStringIndex = GetLastModifiedArrayIndex();
+	
+	if( STRING_INDEX_FOR_OUTPUT_STRING[ nOutputStringIndex ] >= MAX_SOURCE_STRINGS )
+	{
+	    OUTPUT_STRING[ nOutputStringIndex ] = "---";
+	}
+	else
+	{
+		UpdateOutputString( nOutputStringIndex, 
+						STRING_INDEX_FOR_OUTPUT_STRING[ nOutputStringIndex ] + 1 );
+	}
+}
+/*
+Function Main( )
+{
+	Integer n;
+	
+	For( n = 1 to MAX_SOURCE_STRINGS )
+	{
+		OUTPUT_STRING[ n ] = STRING_VAL[ 1 ];
+	}
+	
+		
+}
+*/

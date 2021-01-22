@@ -1,0 +1,53 @@
+{
+  "_serializationVersion": 1,
+  "_serializedObject": "{
+  \"$id\": \"1\",
+  \"_name\": \"Nando test\",
+  \"_id\": \"DE9992798854488D\",
+  \"_metadata\": {
+    \"$id\": \"2\",
+    \"_systemMetadataVersion\": 2,
+    \"_systemMetadataCompatibleVersion\": 2,
+    \"_customer\": {
+      \"$id\": \"3\",
+      \"_country\": \"United States\"
+    },
+    \"_geographicLocation\": {
+      \"$id\": \"4\",
+      \"_countryOrRegion\": \"United States\",
+      \"_stateOrProvince\": \"Nevada\",
+      \"_city\": \"Las Vegas\",
+      \"_useCustomLocation\": false,
+      \"_latitudeDegrees\": 36,
+      \"_latitudeMinutes\": 5,
+      \"_latitudeDirection\": 1,
+      \"_longitudeDegrees\": 115,
+      \"_longitudeMinutes\": 10,
+      \"_longitudeDirection\": 0,
+      \"_gmtMinutesOffset\": -480,
+      \"_adjustForDST\": true
+    },
+    \"_internalImages\": [],
+    \"_metadataVersion\": 2,
+    \"_metadataCompatibleVersion\": 2,
+    \"_category\": \"\",
+    \"_creationDateTime\": \"2017-06-01T21:10:16.8504155-07:00\",
+    \"_lastOpenedDateTime\": \"2017-06-07T18:45:02.7838528-07:00\",
+    \"_lastSavedDateTime\": \"2017-06-07T18:45:28.6285899-07:00\",
+    \"_createdByApp\": \"Crestron Studio\",
+    \"_createdByAppVersion\": \"1.61.11.0\",
+    \"_lastSavedByApp\": \"Crestron Studio\",
+    \"_lastSavedByAppVersion\": \"1.61.11.0\",
+    \"_wasClosedCleanly\": true,
+    \"_lastKnownState\": 0,
+    \"_inUseByProcessId\": 0,
+    \"_contentsSummary\": \"CP3 (Crestron CP3)\\r\\nLiving TV (Sharp Universal LCD/Plasma)\\r\\nMaster TV (Sharp Universal LCD/Plasma)\\r\\nDirecTV Living (DirecTV DirecTV HR20 (DVR))\\r\\nDirecTV Master (DirecTV DirecTV HR20 (DVR))\\r\\n\"
+  },
+  \"_projectHandleVersion\": 0,
+  \"_projectHandleCompatibleVersion\": 0
+}",
+  "_options": {
+    "_isStringFormatted": true,
+    "_flags": 0
+  }
+}

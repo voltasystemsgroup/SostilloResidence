@@ -1,0 +1,14 @@
+<Device Model="CP3">
+   <Network Type="Cresnet" Id="01"/>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="CEN-RFGW-EX" DeviceId="0F" Name="CEN-RFGW-EX (Shared Ethernet)">
+         <Network Type="RF">
+            <Device Model="CLW-DIMEX-P" DeviceId="03" Name="CLW-DIMEX-P Mirror"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="04" Name="CLW-DIMEX-P Above Couch"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="05" Name="CLW-DIMEX-P Above TV "/>
+            <Device Model="CLW-DIMEX-P" DeviceId="06" Name="CLW-DIMEX-P Shelves"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="07" Name="CLW-DIMEX-P Wall Remote"/>
+         </Network>
+      </Device>
+   </Network>
+</Device>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Provider Name="Provider Sample 1" >
+	<Stations>
+		<Station Image="@Max.png" Name="@Max" Channel="1" />
+		<Station Image="5StarMax.png" Name="5 Star Max" Channel="2" />
+		<Station Image="A&E.png" Name="A&E" Channel="3" />
+		<Station Image="ABC.png" Name="ABC" Channel="4" />
+		<Station Image="ABCFamily.png" Name="ABC Family" Channel="5" />
+		<Station Image="ABCNewsNow.png" Name="ABC News Now" Channel="6" />
+		<Station Image="AccessMediaGroup.png" Name="Access Media Group" Channel="7" />
+		<Station Image="Accuweather.png" Name="AccuWeather" Channel="8" />
+		<Station Image="ActionMax.png" Name="Action Max" Channel="9" />
+		<Station Image="AdultSwim.png" Name="Adult Swim" Channel="10" />
+		<Station Image="Altitude.png" Name="Altitude" Channel="11" />
+		<Station Image="AMC.png" Name="AMC" Channel="12" />
+		<Station Image="AmericaOne.png" Name="America One" Channel="13" />
+		<Station Image="AngelOne.png" Name="Angel One" Channel="14" />
+		<Station Image="AnimalPlanet.png" Name="Animal Planet" Channel="15" />
+		<Station Image="AnimeNetwork.png" Name="Anime Network" Channel="16" />
+		<Station Image="AudienceNetwork.png" Name="Audience Network" Channel="17" />
+		<Station Image="AXSTV.png" Name="AXSTV" Channel="18" />
+		<Station Image="BabyFirstTV.png" Name="Baby First TV" Channel="19" />
+		<Station Image="BBCNetwork.png" Name="BBC Network" Channel="20" />
+		<Station Image="BET.png" Name="BET" Channel="21" />
+		<Station Image="BETGospel.png" Name="BET Gospel" Channel="22" />
+		<Station Image="BETHipHop.png" Name="BET Hip Hop" Channel="23" />
+		<Station Image="BETJ.png" Name="BET J" Channel="24" />
+		<Station Image="BigTenNetwork.png" Name="Big Ten Network" Channel="25" />
+		<Station Image="BiographyChannel.png" Name="Biography Channel" Channel="26" />
+		<Station Image="BloombergTelevision.png" Name="Bloomberg Television" Channel="27" />
+		<Station Image="Boomerang.png" Name="Boomerang" Channel="28" />
+		<Station Image="Bravo.png" Name="Bravo" Channel="29" />
+		<Station Image="BYUTelevision.png" Name="BYU Television" Channel="30" />
+		<Station Image="CartoonNetwork.png" Name="Cartoon Network" Channel="31" />
+		<Station Image="CBS.png" Name="CBS" Channel="32" />
+		<Station Image="CBSCollegeSports.png" Name="CBS College Sports" Channel="33" />
+		<Station Image="CCTV9.png" Name="CCTV9" Channel="34" />
+		<Station Image="Chiller.png" Name="Chiller" Channel="35" />
+		<Station Image="Cinemax.png" Name="Cinemax" Channel="36" />
+		<Station Image="ClassicArtsShowcase.png" Name="Classic Arts Showcase" Channel="37" />
+		<Station Image="Cloo.png" Name="Cloo" Channel="38" />
+		<Station Image="CMT.png" Name="CMT" Channel="39" />
+		<Station Image="CNBC.png" Name="CNBC" Channel="40" />
+		<Station Image="CNBCWorld.png" Name="CNBC World" Channel="41" />
+		<Station Image="CNN.png" Name="CNN" Channel="42" />
+		<Station Image="ComastSportsNet.png" Name="Comast Sports Net" Channel="43" />
+		<Station Image="ComcastNetwork.png" Name="Comcast Network" Channel="44" />
+		<Station Image="ComedyCentral.png" Name="Comedy Central" Channel="45" />
+		<Station Image="CookingChannel.png" Name="Cooking Channel" Channel="46" />
+		<Station Image="Cornerstone.png" Name="Cornerstone" Channel="47" />
+		<Station Image="Cornerstore.png" Name="Cornerstore" Channel="48" />
+		<Station Image="Create.png" Name="Create" Channel="49" />
+		<Station Image="CrimeAndInvestigationNetwork.png" Name="Crime and Investigation Network" Channel="50" />
+		<Station Image="CSPAN.png" Name="CSPAN" Channel="51" />
+		<Station Image="CSPAN2.png" Name="CSPAN2" Channel="52" />
+		<Station Image="CSPAN3.png" Name="CSPAN3" Channel="53" />
+		<Station Image="CTN.png" Name="CTN" Channel="54" />
+		<Station Image="CurrentTV.png" Name="Current TV" Channel="55" />
+		<Station Image="CW.png" Name="CW" Channel="56" />
+		<Station Image="Daystar.png" Name="Daystar" Channel="57" />
+		<Station Image="DestinationAmerica.png" Name="Destination America" Channel="58" />
+		<Station Image="DiscoveryChannel.png" Name="Discovery Channel" Channel="59" />
+		<Station Image="DiscoveryFitAndHealth.png" Name="Discovery Fit and Health" Channel="60" />
+		<Station Image="DisneyChannel.png" Name="Disney Channel" Channel="61" />
+		<Station Image="DisneyXD.png" Name="Disney XD" Channel="62" />
+		<Station Image="DIYNetwork.png" Name="DIY Network" Channel="63" />
+		<Station Image="E.png" Name="E" Channel="64" />
+		<Station Image="Encore.png" Name="Encore" Channel="65" />
+		<Station Image="EncoreAction.png" Name="Encore Action" Channel="66" />
+		<Station Image="EncoreDrama.png" Name="Encore Drama" Channel="67" />
+		<Station Image="EncoreEspanol.png" Name="Encore Espanol" Channel="68" />
+		<Station Image="EncoreFamily.png" Name="Encore Family" Channel="69" />
+		<Station Image="EncoreLove.png" Name="Encore Love" Channel="70" />
+		<Station Image="EncoreMystery.png" Name="Encore Mystery" Channel="71" />
+		<Station Image="EncoreWesterns.png" Name="Encore Westerns" Channel="72" />
+		<Station Image="EroticNetwork.png" Name="Erotic Network" Channel="73" />
+		<Station Image="ESPN-2.png" Name="ESPN-2" Channel="74" />
+		<Station Image="ESPN.png" Name="ESPN" Channel="75" />
+		<Station Image="ESPNClassic.png" Name="ESPN Classic" Channel="76" />
+		<Station Image="ESPNDeportes.png" Name="ESPN Deportes" Channel="77" />
+		<Station Image="ESPNews.png" Name="ESP News" Channel="78" />
+		<Station Image="ESPNFullCourt.png" Name="ESPN Full Court" Channel="79" />
+		<Station Image="ESPNGamePlan.png" Name="ESPN Game Plan" Channel="80" />
+		<Station Image="ESPNPlus.png" Name="ESPN Plus" Channel="81" />
+		<Station Image="ESPNU.png" Name="ESPNU" Channel="82" />
+		<Station Image="EWTN.png" Name="EWTN" Channel="83" />
+		<Station Image="FashionTV.png" Name="Fashion TV" Channel="84" />
+		<Station Image="Flix.png" Name="Flix" Channel="85" />
+		<Station Image="FoodNetwork.png" Name="Food Network" Channel="86" />
+		<Station Image="FOX.png" Name="FOX" Channel="87" />
+		<Station Image="FoxBusiness.png" Name="Fox Business" Channel="88" />
+		<Station Image="FoxCollegeSports.png" Name="Fox College Sports" Channel="89" />
+		<Station Image="FoxNews.png" Name="Fox News" Channel="90" />
+		<Station Image="FoxSoccer.png" Name="Fox Soccer" Channel="91" />
+		<Station Image="FoxSports.png" Name="Fox Sports" Channel="92" />
+		<Station Image="FuelTV.png" Name="Fuel TV" Channel="93" />
+		<Station Image="FUNimation.png" Name="FUNimation" Channel="94" />
+		<Station Image="Fuse.png" Name="Fuse" Channel="95" />
+		<Station Image="FX.png" Name="FX" Channel="96" />
+		<Station Image="FXM.png" Name="FXM" Channel="97" />
+		<Station Image="G4.png" Name="G4" Channel="98" />
+		<Station Image="GAC.png" Name="GAC" Channel="99" />
+		<Station Image="Galavision.png" Name="Galavision" Channel="100" />
+		<Station Image="GODtv.png" Name="GODtv" Channel="101" />
+		<Station Image="GolfChannel.png" Name="Golf Channel" Channel="102" />
+		<Station Image="GolTV.png" Name="GolTV" Channel="103" />
+		<Station Image="GospelMusicChannel.png" Name="Gospel Music Channel" Channel="104" />
+		<Station Image="GSN.png" Name="GSN" Channel="105" />
+		<Station Image="H2.png" Name="H2" Channel="106" />
+		<Station Image="HallmarkChannel.png" Name="Hallmark Channel" Channel="107" />
+		<Station Image="HallmarkMovieChannel.png" Name="Hallmark Movie Channel" Channel="108" />
+		<Station Image="HBO.png" Name="HBO" Channel="109" />
+		<Station Image="HBO2.png" Name="HBO2" Channel="110" />
+		<Station Image="HBOComedy.png" Name="HBO Comedy" Channel="111" />
+		<Station Image="HBOFamily.png" Name="HBO Family" Channel="112" />
+		<Station Image="HBOLatino.png" Name="HBO Latino" Channel="113" />
+		<Station Image="HBOSignature.png" Name="HBO Signature" Channel="114" />
+		<Station Image="HBOZone.png" Name="HBO Zone" Channel="115" />
+		<Station Image="HDNetMovies.png" Name="HD Net Movies" Channel="116" />
+		<Station Image="HeathlyLivingChannel.png" Name="Heathly Living Channel" Channel="117" />
+		<Station Image="HGTV.png" Name="HGTV" Channel="118" />
+		<Station Image="HistoryChannel.png" Name="History Channel" Channel="119" />
+		<Station Image="HITN.png" Name="HITN" Channel="120" />
+		<Station Image="HLN.png" Name="HLN" Channel="121" />
+		<Station Image="HRTV.png" Name="HRTV" Channel="122" />
+		<Station Image="HSN.png" Name="HSN" Channel="123" />
+		<Station Image="HustlerTV.png" Name="Hustler TV" Channel="124" />
+		<Station Image="IFC.png" Name="IFC" Channel="125" />
+		<Station Image="IndiePlex.png" Name="Indie Plex" Channel="126" />
+		<Station Image="InvestigationDiscovery.png" Name="Investigation Discovery" Channel="127" />
+		<Station Image="Ion.png" Name="Ion" Channel="128" />
+		<Station Image="IonLife.png" Name="IonLife" Channel="129" />
+		<Station Image="JCTV.png" Name="JCTV" Channel="130" />
+		<Station Image="JewelryTV.png" Name="Jewelry TV" Channel="131" />
+		<Station Image="KBSWorld.png" Name="KBS World" Channel="132" />
+		<Station Image="Lifetime.png" Name="Lifetime" Channel="133" />
+		<Station Image="LifetimeMovieNetwork.png" Name="LifetimeMovieNetwork" Channel="134" />
+		<Station Image="LifetimeRealWomen.png" Name="Lifetime Real Women" Channel="135" />
+		<Station Image="LinkTV.png" Name="Link TV" Channel="136" />
+		<Station Image="LogoTV.png" Name="Logo TV" Channel="137" />
+		<Station Image="LTVN.png" Name="LTVN" Channel="138" />
+		<Station Image="MASN.png" Name="MASN" Channel="139" />
+		<Station Image="MAVTV.png" Name="MAV TV" Channel="140" />
+		<Station Image="MGMTV.png" Name="MGM TV" Channel="141" />
+		<Station Image="MilitaryChannel.png" Name="Military Channel" Channel="142" />
+		<Station Image="MilitaryHistory.png" Name="Military History" Channel="143" />
+		<Station Image="MLBExtraInnings.png" Name="MLB ExtraInnings" Channel="144" />
+		<Station Image="MLBNetwork.png" Name="MLB Network" Channel="145" />
+		<Station Image="MLSDirectKick.png" Name="MLS Direct Kick" Channel="146" />
+		<Station Image="MoreMax.png" Name="More Max" Channel="147" />
+		<Station Image="Movieplex.png" Name="Movieplex" Channel="148" />
+		<Station Image="MSNBC.png" Name="MSNBC" Channel="149" />
+		<Station Image="MTV.png" Name="MTV" Channel="150" />
+		<Station Image="MTV2.png" Name="MTV2" Channel="151" />
+		<Station Image="MTVHits.png" Name="MTV Hits" Channel="152" />
+		<Station Image="MTVU.png" Name="MTVU" Channel="153" />
+		<Station Image="Mun2.png" Name="Mun2" Channel="154" />
+		<Station Image="MyNetworkTV.png" Name="My Network TV" Channel="155" />
+		<Station Image="NASA.png" Name="NASA" Channel="156" />
+		<Station Image="NatGeo.png" Name="Nat Geo" Channel="157" />
+		<Station Image="NatGeoWild.png" Name="Nat Geo Wild" Channel="158" />
+		<Station Image="NBALeaguePass.png" Name="NBA League Pass" Channel="159" />
+		<Station Image="NBATV.png" Name="NBA TV" Channel="160" />
+		<Station Image="NBC.png" Name="NBC" Channel="161" />
+		<Station Image="NBCSportsNetwork.png" Name="NBC Sports Network" Channel="162" />
+		<Station Image="NFLNetwork.png" Name="NFL Network" Channel="163" />
+		<Station Image="NFLSundayTicket.png" Name="NFL Sunday Ticket" Channel="164" />
+		<Station Image="NHLCenterIce.png" Name="NHL CenterIce" Channel="165" />
+		<Station Image="NHLNetwork.png" Name="NHL Network" Channel="166" />
+		<Station Image="Nickelodeon.png" Name="Nickelodeon" Channel="167" />
+		<Station Image="NickJr.png" Name="Nick Jr" Channel="168" />
+		<Station Image="Nicktoons.png" Name="Nicktoons" Channel="169" />
+		<Station Image="NRB.png" Name="NRB" Channel="170" />
+		<Station Image="NuvoTV.png" Name="Nuvo TV" Channel="171" />
+		<Station Image="Once.png" Name="Once" Channel="172" />
+		<Station Image="OutdoorChannel.png" Name="Outdoor Channel" Channel="173" />
+		<Station Image="OuterMax.png" Name="Outer Max" Channel="174" />
+		<Station Image="OvationTV.png" Name="Ovation TV" Channel="175" />
+		<Station Image="Oxygen.png" Name="Oxygen" Channel="176" />
+		<Station Image="Palladia.png" Name="Palladia" Channel="177" />
+		<Station Image="ParamountComedy.png" Name="Paramount Comedy" Channel="178" />
+		<Station Image="PBS.png" Name="PBS" Channel="179" />
+		<Station Image="PBSKidsGo.png" Name="PBS Kids Go" Channel="180" />
+		<Station Image="PBSKidsSprout.png" Name="PBS Kids Sprout" Channel="181" />
+		<Station Image="PeepholeTV.png" Name="Peephole TV" Channel="182" />
+		<Station Image="PentagonChannel.png" Name="Pentagon Channel" Channel="183" />
+		<Station Image="PlayboyTV.png" Name="Playboy TV" Channel="184" />
+		<Station Image="PlayGirl.png" Name="Play Girl" Channel="185" />
+		<Station Image="PursuitChannel.png" Name="Pursuit Channel" Channel="186" />
+		<Station Image="Qubo.png" Name="Qubo" Channel="187" />
+		<Station Image="QVC.png" Name="QVC" Channel="188" />
+		<Station Image="ReelzChannel.png" Name="Reelz Channel" Channel="189" />
+		<Station Image="ResortAndResidence.png" Name="Resort and Residence" Channel="190" />
+		<Station Image="Retroplex.png" Name="Retroplex" Channel="191" />
+		<Station Image="RFD.png" Name="RFD" Channel="192" />
+		<Station Image="ScienceChannel.png" Name="Science Channel" Channel="193" />
+		<Station Image="SetantaSports.png" Name="Setanta Sports" Channel="194" />
+		<Station Image="ShoBeyond.png" Name="Sho Beyond" Channel="195" />
+		<Station Image="ShoExtreme.png" Name="Sho Extreme" Channel="196" />
+		<Station Image="ShoFamily.png" Name="Sho Family" Channel="197" />
+		<Station Image="ShoNext.png" Name="Sho Next" Channel="198" />
+		<Station Image="ShopNBC.png" Name="Shop NBC" Channel="199" />
+		<Station Image="Showcase.png" Name="Showcase" Channel="200" />
+		<Station Image="Showtime.png" Name="Showtime" Channel="201" />
+		<Station Image="Showtime2.png" Name="Showtime2" Channel="202" />
+		<Station Image="ShowWomen.png" Name="Show Women" Channel="203" />
+		<Station Image="Smithsonian.png" Name="Smithsonian" Channel="204" />
+		<Station Image="SoapNet.png" Name="Soap Net" Channel="205" />
+		<Station Image="SoundtrackChannel.png" Name="Soundtrack Channel" Channel="206" />
+		<Station Image="Speed.png" Name="Speed" Channel="207" />
+		<Station Image="SpiceTV.png" Name="Spice TV" Channel="208" />
+		<Station Image="Spike.png" Name="Spike" Channel="209" />
+		<Station Image="SportsmanChannel.png" Name="Sportsman Channel" Channel="210" />
+		<Station Image="SportSouth.png" Name="Sport South" Channel="211" />
+		<Station Image="Starz.png" Name="Starz" Channel="212" />
+		<Station Image="StarzCinema.png" Name="Starz Cinema" Channel="213" />
+		<Station Image="StarzComedy.png" Name="Starz Comedy" Channel="214" />
+		<Station Image="StarzEdge.png" Name="Starz Edge" Channel="215" />
+		<Station Image="StarzInBlack.png" Name="Starz In Black" Channel="216" />
+		<Station Image="StarzKidsAndFamily.png" Name="Starz Kids and Family" Channel="217" />
+		<Station Image="Style.png" Name="Style" Channel="218" />
+		<Station Image="SundanceChannel.png" Name="Sundance Channel" Channel="219" />
+		<Station Image="Syfy.png" Name="Syfy" Channel="220" />
+		<Station Image="TBN.png" Name="TBN" Channel="221" />
+		<Station Image="TBS.png" Name="TBS" Channel="222" />
+		<Station Image="TCT.png" Name="TCT" Channel="223" />
+		<Station Image="TeenNick.png" Name="Teen Nick" Channel="224" />
+		<Station Image="TennisChannel.png" Name="Tennis Channel" Channel="225" />
+		<Station Image="TheChurchChannel.png" Name="The Church Channel" Channel="226" />
+		<Station Image="TheDocumentaryChannel.png" Name="The Documentary Channel" Channel="227" />
+		<Station Image="TheHub.png" Name="The Hub" Channel="228" />
+		<Station Image="TheMovieChannel.png" Name="The Movie Channel" Channel="229" />
+		<Station Image="TheMovieChannelXtra.png" Name="The Movie Channel Xtra" Channel="230" />
+		<Station Image="TheWeatherChannel.png" Name="The Weather Channel" Channel="231" />
+		<Station Image="TheWeatherChannelWeatherscan.png" Name="The Weather Channel Weatherscan" Channel="232" />
+		<Station Image="TheWordNetwork.png" Name="The Word Network" Channel="233" />
+		<Station Image="ThinkBright.png" Name="Think Bright" Channel="234" />
+		<Station Image="ThrillerMax.png" Name="Thriller Max" Channel="235" />
+		<Station Image="TLC.png" Name="TLC" Channel="236" />
+		<Station Image="TNT.png" Name="TNT" Channel="237" />
+		<Station Image="Tr3s.png" Name="Tr3s" Channel="238" />
+		<Station Image="TravelChannel.png" Name="Travel Channel" Channel="239" />
+		<Station Image="TruTV.png" Name="TruTV" Channel="240" />
+		<Station Image="TurnerClassicMovies.png" Name="Turner Classic Movies" Channel="241" />
+		<Station Image="TVG.png" Name="TVg" Channel="242" />
+		<Station Image="TVGuide.png" Name="TV Guide" Channel="243" />
+		<Station Image="TVLand.png" Name="TV Land" Channel="244" />
+		<Station Image="TVOne.png" Name="TV One" Channel="245" />
+		<Station Image="UniMas.png" Name="Uni Mas" Channel="246" />
+		<Station Image="Universal.png" Name="Universal" Channel="247" />
+		<Station Image="Univision.png" Name="Univision" Channel="248" />
+		<Station Image="USA.png" Name="USA" Channel="249" />
+		<Station Image="Velocity.png" Name="Velocity" Channel="250" />
+		<Station Image="VH1.png" Name="VH1" Channel="251" />
+		<Station Image="VH1Classic.png" Name="VH1 Classic" Channel="252" />
+		<Station Image="VH1Soul.png" Name="VH1 Soul" Channel="253" />
+		<Station Image="VisualArtsNetwork.png" Name="Visual Arts Network" Channel="254" />
+		<Station Image="VMe.png" Name="VMe" Channel="255" />
+		<Station Image="WealthTV.png" Name="Wealth TV" Channel="256" />
+		<Station Image="WeTV.png" Name="WeTV" Channel="257" />
+		<Station Image="WFN.png" Name="WFN" Channel="258" />
+		<Station Image="WGNAmerica.png" Name="WGN America" Channel="259" />
+		<Station Image="WMax.png" Name="WMax" Channel="260" />
+		<Station Image="WorldHarvestTelevision.png" Name="World Harvest Television" Channel="261" />
+		<Station Image="WWEClassicsOnDemand.png" Name="WWE Classics On Demand" Channel="262" />
+		<Station Image="YoutooTV.png" Name="Youtoo TV" Channel="263" />
+	</Stations>
+</Provider>

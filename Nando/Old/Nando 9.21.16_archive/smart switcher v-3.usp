@@ -1,0 +1,363 @@
+                                                                          #DEFAULT_NONVOLATILE
+#ENABLE_STACK_CHECKING
+
+
+analog_input Warm_Up_Delay, Cool_Down_Delay;
+digital_input Smart_Switch_Enable, Power_Off_Sense, Power_On_Sense, Input[25];
+
+digital_Output Power_On, Output[25];   
+integer SwitchVal, PowerOn, SystemTimeOut, InputVal, Busy;
+
+Function ProcSmartSwitch(Integer val)
+{
+	switch(val)
+	{
+		case(1):
+		{
+			if(SwitchVal != 1)
+				pulse(10,Output[1]);
+			SwitchVal = 1;
+		}
+		case(2):
+		{
+			if(SwitchVal != 2)
+				pulse(10,Output[2]);
+			SwitchVal = 2;
+		}				
+		case(3):
+		{
+			if(SwitchVal != 3)
+				pulse(10,Output[3]);
+			SwitchVal = 3;
+		}
+		case(4):
+		{
+			if(SwitchVal != 4)
+				pulse(10,Output[4]);
+			SwitchVal = 4;
+		}
+		case(5):
+		{
+			if(SwitchVal != 5)
+				pulse(10,Output[5]);
+			SwitchVal = 5;
+		}
+		case(6):
+		{
+			if(SwitchVal != 6)
+				pulse(10,Output[6]);
+			SwitchVal = 6;
+		}
+		case(7):
+		{
+			if(SwitchVal != 7)
+				pulse(10,Output[7]);
+			SwitchVal = 7;
+		}
+ 		case(8):
+		{
+			if(SwitchVal != 8)
+				pulse(10,Output[8]);
+			SwitchVal = 8;
+		}
+ 		case(9):
+		{
+			if(SwitchVal != 9)
+				pulse(10,Output[9]);
+			SwitchVal = 9;
+		}
+		case(10):
+		{
+			if(SwitchVal != 10)
+				pulse(10,Output[10]);
+		}
+		case(11):
+		{
+			if(SwitchVal != 11)
+				pulse(10,Output[11]);
+		}
+		case(12):
+		{
+			if(SwitchVal != 12)
+				pulse(10,Output[12]);
+		}
+		case(13):
+		{
+			if(SwitchVal != 13)
+				pulse(10,Output[13]);
+		}
+		case(14):
+		{
+			if(SwitchVal != 14)
+				pulse(10,Output[14]);
+		}
+		case(15):
+		{
+			if(SwitchVal != 15)
+				pulse(10,Output[15]);
+		}
+		case(16):
+		{
+			if(SwitchVal != 16)
+				pulse(10,Output[16]);
+		}
+		case(17):
+		{
+			if(SwitchVal != 17)
+				pulse(10,Output[17]);
+		}
+		case(18):
+		{
+			if(SwitchVal != 18)
+				pulse(10,Output[18]);
+		}
+		case(19):
+		{
+			if(SwitchVal != 19)
+				pulse(10,Output[19]);
+		}
+		case(20):
+		{
+			if(SwitchVal != 20)
+				pulse(10,Output[20]);
+		}
+		case(21):
+		{
+			if(SwitchVal != 21)
+				pulse(10,Output[21]);
+		}
+		case(22):
+		{
+			if(SwitchVal != 22)
+				pulse(10,Output[22]);
+		}
+		case(23):
+		{
+			if(SwitchVal != 23)
+				pulse(10,Output[23]);
+		}
+		case(24):
+		{
+			if(SwitchVal != 24)
+				pulse(10,Output[24]);
+		}
+		case(25):
+		{
+			if(SwitchVal != 25)
+				pulse(10,Output[25]);
+		}
+
+	}
+	InputVal = 0;
+	SwitchVal = val;
+
+}
+Function ProcSwitch(Integer Val)
+{
+	Switch(Val)
+	{
+		case(1):
+		{
+			pulse(10,Output[1]);
+			SwitchVal = 1;
+        }
+		case(2):
+		{
+			pulse(10,Output[2]);
+			SwitchVal = 2;
+        }
+		case(3):
+		{
+			pulse(10,Output[3]);
+			SwitchVal = 3;
+        }
+		case(4):
+		{
+			pulse(10,Output[4]);
+			SwitchVal = 4;
+        }
+		case(5):
+		{
+			pulse(10,Output[5]);
+			SwitchVal = 5;
+        }
+		case(6):
+		{
+			pulse(10,Output[6]);
+			SwitchVal = 6;
+        }
+		case(7):
+		{
+			pulse(10,Output[7]);
+			SwitchVal = 7;
+        }
+		case(8):
+		{
+			pulse(10,Output[8]);
+			SwitchVal = 8;
+        }
+		case(9):
+		{
+			pulse(10,Output[9]);
+			SwitchVal = 9;
+        }
+		case(10):
+		{
+			pulse(10,Output[10]);
+			SwitchVal = 10;
+        }
+		case(11):
+		{
+			pulse(10,Output[11]);
+			SwitchVal = 11;
+        }
+		case(12):
+		{
+			pulse(10,Output[12]);
+			SwitchVal = 12;
+        }
+		case(13):
+		{
+			pulse(10,Output[13]);
+			SwitchVal = 13;
+        }
+		case(14):
+		{
+			pulse(10,Output[14]);
+			SwitchVal = 14;
+        }
+		case(15):
+		{
+			pulse(10,Output[15]);
+			SwitchVal = 15;
+        }
+		case(16):
+		{
+			pulse(10,Output[16]);
+			SwitchVal = 16;
+        }
+		case(17):
+		{
+			pulse(10,Output[17]);
+			SwitchVal = 17;
+        }
+		case(18):
+		{
+			pulse(10,Output[18]);
+			SwitchVal = 18;
+        }
+		case(19):
+		{
+			pulse(10,Output[19]);
+			SwitchVal = 19;
+        }
+		case(20):
+		{
+			pulse(10,Output[20]);
+			SwitchVal = 20;
+        }
+		case(21):
+		{
+			pulse(10,Output[21]);
+			SwitchVal = 21;
+        }
+		case(22):
+		{
+			pulse(10,Output[22]);
+			SwitchVal = 22;
+        }
+		case(23):
+		{
+			pulse(10,Output[23]);
+			SwitchVal = 23;
+        }
+		case(24):
+		{
+			pulse(10,Output[24]);
+			SwitchVal = 24;
+        }
+		case(25):
+		{
+			pulse(10,Output[25]);
+			SwitchVal = 25;
+        }
+	}
+	InputVal = 0;
+}
+Function PowerOnProc()
+{
+	Pulse(10,Power_On);
+	PowerOn = 1;
+}
+Function SetInputVal(Integer val)
+{
+ 	InputVal = val;
+}
+Function WarmUp()
+{
+	SystemTimeOut = 1;
+    delay(Warm_Up_Delay);
+	SystemTimeOut = 0;
+}
+Function ProcLogic()
+{
+	Busy = 1;
+	If(Smart_Switch_Enable = 1)
+	{
+		If(PowerOn = 0 && SystemTimeOut = 0)
+		{
+			PowerOnProc();
+			WarmUp();
+			ProcSmartSwitch(InputVal);
+		}
+		Else If(PowerOn = 1 && SystemTimeOut = 0)
+			ProcSmartSwitch(InputVal);
+	}
+	Else
+	{
+		If(PowerOn = 0 && SystemTimeOut = 0)
+		{
+			PowerOnProc();
+			WarmUp();
+			ProcSwitch(InputVal);
+		}
+		Else If(PowerOn = 1 && SystemTimeOut = 0)
+		ProcSwitch(InputVal);
+
+    }
+	Busy = 0;
+
+}
+Function CoolDown()
+{
+	SystemTimeOut = 1;
+	delay(Cool_Down_Delay);
+	SystemTimeOut = 0;
+	If(InputVal > 0)
+		ProcLogic();
+	Else IF(PowerOn = 1)
+		PowerOnProc();
+}
+push Input
+{
+	SetInputVal(getLastModifiedArrayIndex());
+	If(Busy != 0);
+	ProcLogic();
+}
+Push Power_Off_Sense
+{
+	PowerOn = 0;
+	CoolDown();
+}
+Push Power_On_Sense
+{
+	If(SystemTimeOut = 1)
+		PowerOn = 1;
+	Else
+		PowerOnProc();
+}
+Function main()
+{
+	SwitchVal = 0;
+	PowerOn = 0;
+}

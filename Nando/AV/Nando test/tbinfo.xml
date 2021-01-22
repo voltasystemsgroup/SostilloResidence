@@ -1,0 +1,23 @@
+<?xml xml version="1.0" encoding="utf-8"?>
+<!--System Information-->
+<SysInfoObj xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<UTCOffset>-7</UTCOffset>
+	<CPUArchitecture>64</CPUArchitecture>
+	<OsWordLength>64</OsWordLength>
+	<CoreCount>2</CoreCount>
+	<PCSystemType>1</PCSystemType>
+	<ProcessorCount>1</ProcessorCount>
+	<HasBattery>1</HasBattery>
+	<HasLid>1</HasLid>
+	<ScreenCount>1</ScreenCount>
+	<CurrentUICulture>1033</CurrentUICulture>
+	<CurrentCulture>1033</CurrentCulture>
+	<RAM>16217</RAM>
+	<OS>2&amp;&amp;10&amp;&amp;0&amp;&amp;0&amp;&amp;0&amp;&amp;101&amp;&amp;0&amp;&amp;0&amp;&amp;0&amp;&amp;9</OS>
+	<MACAddress>58:00:E3:FF:B9:88&amp;&amp;00:09:0F:FE:00:01&amp;&amp;58:00:E3:FF:B9:87&amp;&amp;5A:00:E3:FF:B9:87</MACAddress>
+	<CPU>Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz</CPU>
+	<GPU/>
+	<DotNet>2.0.50727.4927 SP2&amp;&amp;3.0.30729.4926 SP2&amp;&amp;3.5.30729.4926 SP1&amp;&amp;4.7.02046 Client&amp;&amp;4.7.02046 Full</DotNet>
+	<ScreenRes>Primary: {Width=3840, Height=2160}</ScreenRes>
+</SysInfoObj>
+

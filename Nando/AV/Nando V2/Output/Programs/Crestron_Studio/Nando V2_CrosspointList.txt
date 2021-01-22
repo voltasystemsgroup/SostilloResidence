@@ -1,0 +1,24 @@
+Crosspoint listing for C:\Users\Mike\DOCUME~1\Crestron\Projects\Systems\NANDOV~1\Output\Programs\CRESTR~1\Nando V2.SMW
+
+Note:  Crosspoint symbols with  or  set to 0d are not routeable.
+
+Buffer                                                                                              
+====================================================================================================
+S-2 in macro S-1.1.1.1 (Module File SB System v2.0 (cm).cmc)                                        0
+S-4.2 in macro S-1.1.3.2.7.1 (Module File CSR Media Room v1.1 (cm).cmc)                             51026
+S-4.2 in macro S-1.1.3.2.6.1 (Module File CSR Media Room v1.1 (cm).cmc)                             51036
+
+                                                                                                    
+====================================================================================================
+S-1 in macro S-1.1.1.1 (Module File SB System v2.0 (cm).cmc)                                        0
+S-5.1 in macro S-1.1.3.7.1 (Module File CSR Media Generic Receiver and Display Hardware In          51016
+terface v1.1 (cm).cmc)                                                                              
+S-5.1 in macro S-1.1.3.8.2 (Module File CSR Media Generic Receiver and Display Hardware In          51025
+terface v1.1 (cm).cmc)                                                                              
+S-2.1 in macro S-1.2.3.1.1.1 (Module File CSR Media Touch Screen Interface v1.1 (cm).cmc)           51027
+S-5.1 in macro S-1.1.3.6.1 (Module File CSR Media Generic Receiver and Display Hardware In          51031
+terface v1.1 (cm).cmc)                                                                              
+S-5.1 in macro S-1.1.3.5.1 (Module File CSR Media Generic Receiver and Display Hardware In          51033
+terface v1.1 (cm).cmc)                                                                              
+S-2.1 in macro S-1.2.3.2.1.1 (Module File CSR Media Touch Screen Interface v1.1 (cm).cmc)           51037
+

@@ -1,0 +1,36 @@
+<Device Model="AV2">
+   <Network Type="Ethernet" Id="08">
+      <Device Model="TPMC-8X" DeviceId="03"/>
+      <Device Model="TPMC-8X" DeviceId="04"/>
+      <Device Model="AAS-1/2/4" DeviceId="10"/>
+      <Device Model="CEN-IDOC (Without Search)" DeviceId="11" Name="[IPOD 1]"/>
+      <Device Model="CEN-IDOC (Without Search)" DeviceId="12" Name="[IPOD 2]"/>
+      <Device Model="CEN-RFGW-EX (Ethernet)" DeviceId="61" Name="CEN-RFGW-EX [MASTERBEDROOM]">
+         <Network Type="RF">
+            <Device Model="HR-150" DeviceId="03"/>
+         </Network>
+      </Device>
+   </Network>
+   <Network Type="Cresnet" Id="09">
+      <Device Model="TPS-2000L" DeviceId="03"/>
+      <Device Model="TPS-4L (Cresnet)" DeviceId="04" Name="Guest Bed"/>
+      <Device Model="TPS-4L (Cresnet)" DeviceId="05" Name="Kitchen"/>
+      <Device Model="CNRFGWA-418" DeviceId="11">
+         <Network Type="RF"/>
+      </Device>
+      <Device Model="ST-IO" DeviceId="14"/>
+      <Device Model="TPS-RFGWX" DeviceId="24">
+         <Network Type="RF"/>
+      </Device>
+      <Device Model="CHV-TSTAT/CHV-THSTAT (v2.0)" DeviceId="2A" Name="Crestron CHV-TSTAT"/>
+      <Device Model="CHV-TSTAT/CHV-THSTAT (v2.0)" DeviceId="2B" Name="Crestron CHV-TSTAT"/>
+      <Device Model="C2N-CB" DeviceId="61" Name="[ENTRY]"/>
+      <Device Model="C2N-CB" DeviceId="62" Name="[KITCHEN]"/>
+      <Device Model="C2N-CB" DeviceId="63" Name="[GUEST BEDROOM]"/>
+      <Device Model="C2N-CB" DeviceId="64" Name="[MASTER BATH]"/>
+      <Device Model="C2N-SSC-2" DeviceId="71"/>
+      <Device Model="C2N-SSC-2" DeviceId="72"/>
+      <Device Model="C2N-SSC-2" DeviceId="73"/>
+      <Device Model="C2N-SSC-2" DeviceId="74"/>
+   </Network>
+</Device>

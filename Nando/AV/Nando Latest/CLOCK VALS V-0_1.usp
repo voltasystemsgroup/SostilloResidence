@@ -1,0 +1,82 @@
+
+
+STRING_INPUT TOD[ 20 ];
+
+ANALOG_OUTPUT	MONTH_NUM, 
+				DAY_NUM,
+				YEAR_NUM,
+				HOUR_NUM,
+				MINUTE_NUM,
+				SECOND_NUM;
+
+Integer gnMonth,
+		gnDay,
+		gnYear,
+		gnHour,
+		gnMinute,
+		gnSecond;
+
+
+CHANGE TOD
+{
+	Integer nVal;
+	
+	nVal = AToI( Mid( TOD, 1, 2 ) );
+	If( gnMonth != nVal ) 
+	{
+		gnMonth = nVal;
+		MONTH_NUM = gnMonth;
+	}
+	
+	nVal = AToI( Mid( TOD, 3, 2 ) );
+	If( gnDay != nVal ) 
+	{
+		gnDay = nVal;
+		DAY_NUM = gnDay;
+	}
+	
+	nVal = AToI( Mid( TOD, 5, 4 ) );
+	If( gnYear != nVal ) 
+	{
+		gnYear = nVal;
+		YEAR_NUM = gnYear;
+	}
+	
+	nVal = AToI( Mid( TOD, 9, 2 ) );
+	If( gnHour != nVal ) 
+	{
+		gnHour = nVal;
+		HOUR_NUM = gnHour;
+	}
+	
+	nVal = AToI( Mid( TOD, 11, 2 ) );
+	If( gnMinute != nVal ) 
+	{
+		gnMinute = nVal;
+		MINUTE_NUM = gnMinute;
+	}
+	
+	nVal = AToI( Mid( TOD, 13, 2 ) );
+	If( gnSecond != nVal ) 
+	{
+		gnSecond = nVal;
+		SECOND_NUM = gnSecond;
+	}	
+}
+
+Function Main( )
+{
+	gnMonth = 0;
+	gnDay = 0;
+	gnYear = 0;
+	gnHour = 0;
+	gnMinute = 0;
+	gnSecond = 0;
+	
+	MONTH_NUM = gnMonth;
+	DAY_NUM = gnDay;
+	YEAR_NUM = gnYear;
+	HOUR_NUM = gnHour;
+	MINUTE_NUM = gnMinute;
+	SECOND_NUM = gnSecond;
+}

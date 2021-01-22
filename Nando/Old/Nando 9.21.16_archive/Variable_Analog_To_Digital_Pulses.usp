@@ -1,0 +1,245 @@
+/***********************************************************************
+  SIMPL+ Module Information
+  (Fill in comments below)
+***********************************************************************/
+/*
+Dealer Name:
+System Name:
+System Number:
+Programmer:  Rolling Thunder Software, Inc.
+Comments:
+*/
+
+/***********************************************************************
+  Compiler Directives
+  (Uncomment and declare compiler directives as needed)
+***********************************************************************/
+ #SYMBOL_NAME "Variable Analog To Digital Pulses"
+ #HINT "Variable AtoD Pulses"
+ #DEFINE_CONSTANT NO                  0
+ #DEFINE_CONSTANT YES                 1 
+ #DEFINE_CONSTANT IR_PULSE_LENGTH    20
+
+#HELP_BEGIN
+   This module is designed to detect a change in a analog signal and pulse
+   the appropriate number ir signals. This module was designed to handle 
+   any number up to 9999. If a number is in process of being output, then any
+   new number will be disregarded.
+#HELP_END
+
+/***********************************************************************
+  Include Libraries
+  (Uncomment and include additional librarys as needed)
+***********************************************************************/
+// #CRESTRON_LIBRARY ""
+// #USER_LIBRARY ""
+
+/***********************************************************************
+  DIGITAL, ANALOG and SERIAL INPUTS and OUTPUTS
+  (Uncomment and declare inputs and outputs as needed)
+***********************************************************************/
+// DIGITAL_INPUT 
+ ANALOG_INPUT Input_Number; 
+// STRING_INPUT 
+// BUFFER_INPUT 
+ DIGITAL_OUTPUT Key0,Key1,Key2,Key3,Key4,Key5,Key6,Key7,Key8,Key9,Key_Enter;
+// ANALOG_OUTPUT 
+// STRING_OUTPUT 
+
+/***********************************************************************
+  Global Variables
+  (Uncomment and declare global variables as needed)
+***********************************************************************/
+ INTEGER Output_In_Progress, Ones_Digit, Tens_Digit, Hundreds_Digit,
+         Thousands_Digit;
+// STRING
+
+/***********************************************************************
+  Functions
+  (Add any additional functions here)
+  Note:  Functions must be physically placed before the location in
+         the code that calls them.
+***********************************************************************/
+
+Function Pulse_Key(integer Key_Value)
+{
+    // TODO:  Add local variable declarations here
+
+    switch (Key_Value)
+    {
+      case(0):
+      {
+        pulse(IR_PULSE_LENGTH,Key0);
+      }
+      case(1):
+      {
+        pulse(IR_PULSE_LENGTH,Key1);
+      }
+      case(2):
+      {
+        pulse(IR_PULSE_LENGTH,Key2);
+      }
+      case(3):
+      {
+        pulse(IR_PULSE_LENGTH,Key3);
+      }
+      case(4):
+      {
+        pulse(IR_PULSE_LENGTH,Key4);
+      }
+      case(5):
+      {
+        pulse(IR_PULSE_LENGTH,Key5);
+      }
+      case(6):
+      {
+        pulse(IR_PULSE_LENGTH,Key6);
+      }
+      case(7):
+      {
+        pulse(IR_PULSE_LENGTH,Key7);
+      }
+      case(8):
+      {
+        pulse(IR_PULSE_LENGTH,Key8);
+      }
+      case(9):
+      {
+        pulse(IR_PULSE_LENGTH,Key9);
+      }
+    }
+    
+}
+
+/*
+Function MyFunction1()
+{
+    // TODO:  Add local variable declarations here
+
+    // TODO:  Add code here
+}
+*/
+
+/*
+Integer_Function MyIntFunction1()
+{
+    // TODO:  Add local variable declarations here
+
+    // TODO:  Add code here
+
+    Return (0);
+}
+*/
+
+/*
+String_Function MyStrFunction1()
+{
+    // TODO:  Add local variable declarations here
+
+    // TODO:  Add code here
+
+    Return ("");
+}
+*/
+
+/***********************************************************************
+  Event Handlers
+  (Uncomment and declare additional event handlers as needed)
+***********************************************************************/
+/*
+PUSH input
+{
+    // TODO:  Add code here
+}
+*/
+
+/*
+RELEASE input
+{
+    // TODO:  Add code here
+}
+*/
+
+
+CHANGE Input_Number
+{
+    If (Output_In_Progress = NO)
+    {
+      Output_In_Progress = YES;
+      if (Input_Number < 10)
+      {
+        Call Pulse_Key(Input_Number);
+        // Wait 1.0 sec then output enter command
+        Delay(100);
+        Pulse(IR_PULSE_LENGTH,Key_Enter);
+        Output_In_Progress = NO;
+      }
+      else if (Input_Number < 100)
+      {
+        Tens_Digit = Input_Number / 10;
+        Ones_Digit = Input_Number Mod 10;
+        Call Pulse_Key(Tens_Digit);
+        Delay(100);
+        Call Pulse_Key(Ones_Digit);
+        Delay(100);
+        Pulse(IR_PULSE_LENGTH,Key_Enter);        
+        Output_In_Progress = NO;
+      }
+      else if (Input_Number < 1000)
+      {
+        Hundreds_Digit = Input_Number / 100;
+        Tens_Digit = (Input_Number - (Hundreds_Digit * 100)) / 10;
+        Ones_Digit = Input_Number - ((Hundreds_Digit * 100) + (Tens_Digit * 10));
+        Call Pulse_Key(Hundreds_Digit);
+        Delay(100);
+        Call Pulse_Key(Tens_Digit);
+        Delay(100);
+        Call Pulse_Key(Ones_Digit);
+        Delay(100);
+        Pulse(IR_PULSE_LENGTH,Key_Enter);        
+        Output_In_Progress = NO;
+      }
+      else if (Input_Number < 10000)
+      {
+        Thousands_Digit = Input_Number / 1000;
+        Hundreds_Digit = (Input_Number - (Thousands_Digit * 1000)) / 100;
+        Tens_Digit = (Input_Number - ((Thousands_Digit * 1000) + (Hundreds_Digit * 100))) / 10;
+        Ones_Digit = Input_Number - ((Thousands_Digit * 1000) + (Hundreds_Digit * 100) + (Tens_Digit * 10));
+        Call Pulse_Key(Thousands_Digit);
+        Delay(100);
+        Call Pulse_Key(Hundreds_Digit);
+        Delay(100);
+        Call Pulse_Key(Tens_Digit);
+        Delay(100);
+        Call Pulse_Key(Ones_Digit);
+        Delay(100);
+        Pulse(IR_PULSE_LENGTH,Key_Enter);        
+        Output_In_Progress = NO;
+      }
+    }
+    else
+    {
+      // No Logic Performed
+    }
+}
+
+
+/*
+EVENT
+{
+    // TODO:  Add code here
+}
+*/
+
+/***********************************************************************
+  Main()
+  Uncomment and place one-time startup code here
+  (This code will get called when the system starts up)
+***********************************************************************/
+
+Function Main()
+{
+    Output_In_Progress = No;
+}
+
+

@@ -1,0 +1,191 @@
+
+DIGITAL_INPUT	SECOND_PULSE,
+				START, 
+				STOP,
+				RESET;
+				
+ANALOG_INPUT	COUNT_DAY,
+				COUNT_HOUR,
+				COUNT_MINUTE,
+				COUNT_SECOND;
+
+DIGITAL_OUTPUT	COUNTDOWN_STARTED,
+				COUNTDOWN_FINISHED;
+
+ANALOG_OUTPUT	WATCH_DAY,
+				WATCH_HOUR,
+				WATCH_MINUTE,
+				WATCH_SECOND;
+
+STRING_OUTPUT	TIME_REMAINING;				
+
+
+Integer gnCountDownStarted;
+
+Signed_Integer 	gnWatchDay,
+				gnWatchHour,
+				gnWatchMinute,
+				gnWatchSecond;
+		
+
+Function CountDownFinished( )
+{
+	Pulse( 1, COUNTDOWN_FINISHED );
+}
+
+Function StartCountDown( )
+{
+	gnCountDownStarted = 1;
+	COUNTDOWN_STARTED = gnCountDownStarted;
+}
+
+Function StopCountDown( )
+{
+	gnCountDownStarted = 0;
+	COUNTDOWN_STARTED = gnCountDownStarted;
+}
+
+Function ResetCountDown( )
+{
+	StopCountDown( );
+	
+	gnWatchDay = 0;
+	gnWatchHour = 0;
+	gnWatchMinute = 0;    
+	gnWatchSecond = 0;
+	
+	WATCH_DAY = gnWatchDay;
+	WATCH_HOUR = gnWatchHour;
+	WATCH_MINUTE = gnWatchMinute;
+	WATCH_SECOND = gnWatchSecond;
+	
+	MakeString( TIME_REMAINING, 
+				"%02d:%02d:%02d", 
+				gnWatchHour, gnWatchMinute, gnWatchSecond );
+}
+
+PUSH SECOND_PULSE
+{
+	If( gnCountDownStarted )
+	{
+		gnWatchSecond = gnWatchSecond - 1;
+		
+		If( gnWatchSecond = -1 )
+		{
+			gnWatchMinute = gnWatchMinute - 1;
+			
+			If( gnWatchMinute = -1 )
+			{
+				gnWatchHour = gnWatchHour - 1;
+				
+				If( gnWatchHour = -1 )
+				{
+					gnWatchDay = gnWatchDay - 1;
+					
+					If( gnWatchDay = -1 )
+					{
+						ResetCountDown( );
+						CountDownFinished( );						
+					}
+					Else
+					{
+						gnWatchHour = 23;
+						gnWatchMinute = 59;
+						gnWatchSecond = 59;
+					}
+				}
+				Else
+				{
+					gnWatchMinute = 59;
+					gnWatchSecond = 59;
+				}
+			}
+			Else
+			{
+				gnWatchSecond = 59;			
+			}
+		}
+		
+		WATCH_DAY = gnWatchDay;
+		WATCH_HOUR = gnWatchHour;
+		WATCH_MINUTE = gnWatchMinute;
+		WATCH_SECOND = gnWatchSecond;
+		
+		MakeString( TIME_REMAINING, 
+					"%02d:%02d:%02d", 
+					gnWatchHour, gnWatchMinute, gnWatchSecond );
+	}
+}
+
+CHANGE COUNT_DAY
+{
+	gnWatchDay = COUNT_DAY;
+	WATCH_DAY = gnWatchDay;
+}
+
+CHANGE COUNT_HOUR
+{
+	gnWatchHour = COUNT_HOUR;
+	
+	If( gnWatchHour >= 24 )
+	{
+		gnWatchDay = gnWatchHour/24;
+		gnWatchHour = gnWatchHour%24;
+		
+		WATCH_DAY = gnWatchDay;
+	}
+	WATCH_HOUR = gnWatchHour;
+}
+
+CHANGE COUNT_MINUTE
+{
+	gnWatchMinute = COUNT_MINUTE;
+	
+	If( gnWatchMinute >= 60 )
+	{
+		gnWatchHour = gnWatchMinute/60;
+		gnWatchMinute = gnWatchMinute%60;
+		
+		WATCH_HOUR = gnWatchHour;
+	}
+	WATCH_MINUTE = gnWatchMinute;
+}
+
+CHANGE COUNT_SECOND
+{
+	gnWatchSecond = COUNT_SECOND;
+	
+	If( gnWatchSecond >= 60 )
+	{
+		gnWatchMinute = gnWatchSecond/60;
+		gnWatchSecond = gnWatchSecond%60;
+		
+		WATCH_MINUTE = gnWatchMinute;
+	}
+	WATCH_SECOND = gnWatchSecond;	
+}
+
+PUSH START
+{
+	StartCountDown( );		
+}
+
+PUSH STOP
+{
+	StopCountDown( );
+}
+
+PUSH RESET
+{
+	ResetCountDown( );		
+}
+
+Function Main( )
+{
+	StopCountDown( );
+
+	ResetCountDown( );
+}						
+				
+				
+
